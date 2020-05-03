@@ -51,7 +51,7 @@ enableGitInfo = false
   # BookSection = 'docs'
 
   # Set source repository location.
-  Used for 'Last Modified' and 'Edit this page' links.
+  # Used for 'Last Modified' and 'Edit this page' links.
   BookRepo = 'https://github.com/glogging_v3'
 
   # Enable "Edit this page" links for 'doc' page type.
