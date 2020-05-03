@@ -9,7 +9,7 @@ tags = [
     "Gearman",
 ]
 categories = [
-    "Concepts",
+    "Concept",
 ]
 +++
 

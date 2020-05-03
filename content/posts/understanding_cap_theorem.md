@@ -9,7 +9,7 @@ tags = [
     "Brewer's Theorem"
 ]
 categories = [
-    "Concepts",
+    "Concept",
 ]
 +++
 

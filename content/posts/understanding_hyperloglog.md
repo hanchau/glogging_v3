@@ -9,7 +9,7 @@ tags = [
     "Cardinality Estimation Algorithm",
 ]
 categories = [
-    "Concepts",
+    "Concept",
 ]
 +++
 
