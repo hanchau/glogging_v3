@@ -50,7 +50,7 @@ enableGitInfo = false
   # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
   # BookSection = 'docs'
 
-  Set source repository location.
+  # Set source repository location.
   Used for 'Last Modified' and 'Edit this page' links.
   BookRepo = 'https://github.com/glogging_v3'
 
