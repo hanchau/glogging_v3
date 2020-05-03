@@ -13,6 +13,8 @@ categories = [
 ]
 +++
 
+
+
 This article offers a setup of [Gearman](https://github.com/hanchau/gearman_to_the_rescue) for Parallel/Distributed processing.
 <!--more-->
 

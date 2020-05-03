@@ -43,9 +43,9 @@ Again, Let's say we have 10000 balls and 3 buckets A, B, C with A having clean w
 ### 1 Approach:
 
 You pick a ball, put it inside A, then B and then C and repeat for all the balls.
-```
+{{< hint info>}}
 NOTE: when you are using one bucket, others are not in use or idle.
-```
+{{< /hint >}}
 Time Taken: Assuming T/3 to be the time taken to process a ball through one bucket, total time would be ((T/3 + T/3 + T/3)10000) ~ **(10000*T)** .
 
 
@@ -56,17 +56,21 @@ Now what you will do is just pick a ball, dip it in bucket A and give it to Alex
 Alex will dip it in bucket B and will pass the ball to the Bob and repeat.
 Bob will dip it in bucket C and Voilla, One ball is cleaned.
 Time Taken: Assuming T/3 to be the time taken to process a ball through one bucket, but now there's a **catch**
-```
+
+{{< hint info>}}
 NOTE: when you are using one bucket, others are being used as well.
 After everty T/3 time, one ball is getting cleaned which makes the effective time taken to clean a ball is T/3 +- some error;
-```
+{{< /hint >}}
+
 total time would be ~ **(10000*T/3)**.
 
 
 So, I think I've convinced you that parallel processing is gooood.
-```
+
+{{< hint warning>}}
 NOTE: Parallel processing can only be done with some specific types of tasks. Some tasks are inherently sequential. A fine example would be making a cup of tea, you have to follow the steps. One way to identify if a task can be parallelized or not is that if there is a some sort of repetition or lack of system resource utilization (like in example 2) then you can think of making the task into sub tasks and processing them parallelly.
-```
+{{< /hint >}}
+
 
 ## How Gearman helps you achieve that?.
 

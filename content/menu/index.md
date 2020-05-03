@@ -4,8 +4,10 @@ headless: true
 
 - [**Blog**]({{< relref "/posts" >}})
 
-- [**About**]({{< relref "/about" >}})
+- [**Cheet Sheet**]({{< relref "/cheetsheet" >}})
+
+- **Connect**
 
 - [**Contact**]({{< relref "/contact" >}})
 
-- **Connect**
+- [**About**]({{< relref "/about" >}})
