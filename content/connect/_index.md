@@ -36,4 +36,8 @@ title: Connect
 
 {{< button href="https://twitter.com/hanChauJuna" >}} Twitter {{< /button >}}
 
+<br>
+
+---
+
 {{< /columns >}}
