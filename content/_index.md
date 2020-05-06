@@ -2,6 +2,11 @@
 title: Home
 type: docs
 draft: false
+bookToc: false
 ---
 
-Some Some
+---
+Talk is cheap, Show me code...
+
+My A,B,C is in Menu
+---

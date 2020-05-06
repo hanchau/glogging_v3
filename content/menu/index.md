@@ -6,8 +6,6 @@ headless: true
 
 - [**Cheet Sheet**]({{< relref "/cheetsheet" >}})
 
-- **Connect**
-
-- [**Contact**]({{< relref "/contact" >}})
+- [**Connect**]({{< relref "/connect" >}})
 
 - [**About**]({{< relref "/about" >}})
