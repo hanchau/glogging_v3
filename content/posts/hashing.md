@@ -22,8 +22,8 @@ Arousal of an idea parallelly at multiple places is indicative of its need in th
 ## Concepts/Definitions.
 
 ### Hash Function
-The Definitions of an Hash Function is pretty straight forward -
-A Hash Function is a function {{< katex >}}\hat h{{< /katex >}} which maps a set of arbitrary number of elements to a set of fixed number of elements i.e.
+The definition of a Hash Function is pretty straight forward -
+A Hash Function is a function {{< katex >}}\hat h{{< /katex >}} which maps a set of an arbitrary number of elements to a set of a fixed number of elements i.e.
 {{< hint info >}}
 {{< katex display >}} f(\xi) = \hat h(\xi) {{< /katex >}} s.t.
 {{< katex >}} [\xi] = \infty {{< /katex >}} and
@@ -36,15 +36,16 @@ Usually
 
 ### Collisions
 We say, A Collision has happened if, for any two inputs to the hash function
-{{< katex >}}\hat h{{< /katex >}} we get the same output i.e.
+{{< katex >}}\hat h{{< /katex >}}, we get the same output i.e.
 {{< hint info >}}
-{{< katex display >}} x_1, x_2 \in \xi,  x_1 \neq x_2, but, \hat h(x_1) = \hat h(x_2) {{< /katex >}}
+{{< katex display >}} \exists x_1, x_2 \in \xi,  x_1 \neq x_2, but {{< /katex >}}
+{{< katex display >}} \hat h(x_1) = \hat h(x_2) {{< /katex >}}
 {{< /hint >}}
 
 ### Hash Table/ Hash Map
-As the name suggests, A Hash Table is a table made up of 2 primary fields, key and value. The key field stores the keys from the set
+As the name suggests, A Hash Table is a table made up of two primary fields, key, and value. The field 'key' stores the keys from the set
 {{< katex >}}\xi{{< /katex >}}
-and the value fied stores the address of the key's corresponding value in the memory.
+and the field 'value' stores the address of the corresponding value in the memory.
 
 
 
@@ -80,8 +81,8 @@ graph TB
 
 ## Test of a good Hash Function.
 
-### Chi Squared Test: {{< katex >}} \mu(\hat h) {{< /katex >}}
-The uniformity of the distribution of a hash function can be evaluated using the chi-squared test.
+### Chi-Squared Test: {{< katex >}} \mu(\hat h) {{< /katex >}}
+The uniformity of the distribution of a hash function can be evaluated using the Chi-Squared test.
 Assuming we have
 
 {{< katex >}} m-buckets, n-keys, b_j  {{< /katex >}} is the number of elements in bucket j, then
@@ -108,7 +109,7 @@ Let's say we have a hash function
 ## Popular Hash Functions.
 
 
-## Hash Map in python  Dictionaries.
+## Hash Map in Python Dictionaries.
 
 
 ## Use Cases.
