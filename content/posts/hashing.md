@@ -17,7 +17,7 @@ categories = [
 
 ## A Brief History.
 
- Arosal of an idea parallely at multiple places is indicative of its need in the ecosystem. Like many ideas in Computer Science, Hashing was also introduced independently by different Scientists. According to [Wikipedia](https://en.wikipedia.org/wiki/Hash_table#History), In 1953, At IBM, one computer scientist named Hans Pete Luhn wrote an internal memorandum that used Hashing (with Chaining), and about the same time a group of scientists Gene Amdahl, Elaine M. McGraw, Nathaniel Rochester, and Arthur Samuel wrote a program using hashing. After that, there has been a lot of work/research around Hashing. I can't think of a computer science field where we don't use Hashing. So Let's move right on to the Concept.
+ Arousal of an idea parallely at multiple places is indicative of its need in the ecosystem. Like many ideas in Computer Science, Hashing was also introduced independently by different Scientists. According to [Wikipedia](https://en.wikipedia.org/wiki/Hash_table#History), In 1953, At IBM, one computer scientist named Hans Pete Luhn wrote an internal memorandum that used Hashing (with Chaining), and about the same time a group of scientists Gene Amdahl, Elaine M. McGraw, Nathaniel Rochester, and Arthur Samuel wrote a program using hashing. After that, there has been a lot of work/research around Hashing. I can't think of a computer science field where we don't use Hashing. So Let's move right on to the Concept.
 
 ## Concepts/Definitions.
 
