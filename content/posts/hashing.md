@@ -64,10 +64,10 @@ key     |   value
 {{< mermaid >}}
 
 graph TB
-    lion --> 4 --> A
-    bat --> 7 --> B
+    lion --> 4 --> B
+    snake --> 7 --> A
     subgraph keys
-    dog --> cat --> lion --> bat --> me
+    dog --> cat --> lion --> snake --> me
     end
     subgraph hash
     0 --> 1 --> 4 -->7 -->8
