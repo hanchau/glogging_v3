@@ -193,12 +193,6 @@ title: Videos
 
 ---
 
-{{< youtube xyDkyFjzFVc >}}
-
-<br>
-
----
-
 {{< youtube -_B5uQ4UGi0 >}}
 
 <br>
