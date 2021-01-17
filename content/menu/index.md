@@ -4,9 +4,11 @@ headless: true
 
 - [**Blog**]({{< relref "/posts" >}})
 
-- [**Cheet Sheet**]({{< relref "/cheetsheet" >}})
+- [**Gems**]({{< relref "/gems" >}})
 
 - [**Papers**]({{< relref "/papers" >}})
+
+- [**Cheet Sheet**]({{< relref "/cheetsheet" >}})
 
 - [**Connect**]({{< relref "/connect" >}})
 

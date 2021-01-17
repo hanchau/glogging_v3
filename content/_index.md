@@ -6,6 +6,6 @@ bookToc: false
 ---
 
 ---
-Talk is cheap, Show me code...
+Imagination is the key.
 
 ---
